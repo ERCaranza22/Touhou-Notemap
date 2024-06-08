@@ -1,0 +1,13 @@
+<!-- res/values/styles.xml -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <!-- Splash screen theme. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@mipmap/yinyang_icon</item>
+    </style>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caranza_touhouapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/yinyang_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/yinyang_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ReisenCharActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YoumuCharActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SanaeCharActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SakuyaCharActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MarisaCharActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReimuCharActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reimu_char"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".MusicActivity" />
+        <activity android:name=".CharacterActivity" />
+        <activity android:name=".MapActivity" />
+    </application>
+
+</manifest>
